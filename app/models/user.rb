@@ -1,3 +1,3 @@
-class User < ActieRecord::Base
+class User < ActiveRecord::Base
   has_many :transactions
 end
